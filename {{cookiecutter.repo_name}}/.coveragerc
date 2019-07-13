@@ -1,0 +1,26 @@
+[paths]
+{%- if cookiecutter.test_matrix_separate_coverage == 'yes' %}
+source = src
+{%- else %}
+source =
+   src
+   */site-packages
+{%- endif %}
+
+[run]
+branch = true
+{%- if cookiecutter.test_matrix_separate_coverage == 'yes' %}
+source =
+    src
+    tests
+{%- else %}
+source =
+    {{ cookiecutter.package_name }}
+    tests
+{%- endif %}
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*

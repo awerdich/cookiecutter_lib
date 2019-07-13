@@ -1,0 +1,4 @@
+{%- if cookiecutter.license == 'MIT license' -%}
+MIT License
+
+{%- endif -%}
