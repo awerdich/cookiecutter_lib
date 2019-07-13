@@ -1,6 +1,3 @@
-
-[![Build Status](https://travis-ci.com/csci-e-29/2019sp-pset-utils-awerdich.svg?token=BF7GKiTsAKMPZKzBi7qr&branch=develop)](https://travis-ci.com/csci-e-29/2019sp-pset-utils-awerdich)
-
 # Cookiecutter template for libraries
 
 A common practice is to keep work for every problem you solve in its own repo or
